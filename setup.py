@@ -12,8 +12,8 @@ base = None
 if sys.platform == "win32":
     base = "Win32GUI"
 
-setup(  name = "macgyver.py",
-        version = "0.1",
-        description = "MacGyver game",
-        options = {"build_exe": build_exe_options},
-        executables = [Executable("macgyver.py", base=base)])
+setup(name="macgyver.py",
+      version="0.1",
+      description="MacGyver game",
+      options={"build_exe": build_exe_options},
+      executables=[Executable("macgyver.py", base=base)])

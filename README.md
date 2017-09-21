@@ -2,10 +2,16 @@
 
 McGyver game as part of Project 3 OpenClassrooms create with Python 3.6.
 
+## Requirement
+
+- Python 3.x
+- Pygame
+- cx_Freeze
+
 ## User installation
 
-1. Go to build\exe.win32-3.6, open MacGyver.rar and extract all the file where you want the game.
-2. Launch Macgyver.exe
+1. Open Bash / CMD : type "python path_to_setup.py/setup.py build"
+2. Launch the Executable file build/your_system/Macgyver (.exe on windows)
 
 
 ## Game's goal
